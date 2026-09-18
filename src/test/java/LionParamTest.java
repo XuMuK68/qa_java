@@ -10,7 +10,7 @@ import org.mockito.MockitoAnnotations;
 
 
 @RunWith(Parameterized.class)
-public class LionTest extends TestCase {
+public class LionParamTest extends TestCase {
 
     @Parameterized.Parameter()
     public String sex;

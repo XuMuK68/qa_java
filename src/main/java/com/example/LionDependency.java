@@ -1,4 +1,10 @@
 package com.example;
 
-public class LionDependency {
+import java.util.List;
+
+public interface LionDependency {
+
+    int getKittens();
+
+    List<String> getFood(String animalKind) throws Exception;
 }
